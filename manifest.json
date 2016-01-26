@@ -1,0 +1,16 @@
+{
+  "name": "Download background image",
+  "version": "0.1",
+  "description": "Download background image",
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": ["content.js"]
+    }
+  ],
+  "permissions": ["contextMenus"],
+  "background": {
+    "scripts": ["bg.js"]
+  },
+  "manifest_version": 2
+}
