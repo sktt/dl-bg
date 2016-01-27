@@ -1,0 +1,3 @@
+Chrome extension that adds context menu option to download background image
+set through css style of right cliked node or any of its parents and
+otherwise does nothing.
